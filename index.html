@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-black text-white">
+    <header class="bg-gray-900 shadow-md">
+        <div class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <h1 class="text-2xl font-bold">My Portfolio</h1>
+            <nav class="flex items-center">
+                <a href="#about" class="px-4 text-gray-300 hover:text-white">About</a>
+                <a href="#projects" class="px-4 text-gray-300 hover:text-white">Projects</a>
+                <a href="#certificates" class="px-4 text-gray-300 hover:text-white">Certificates</a>
+                <a href="#skills" class="px-4 text-gray-300 hover:text-white">Skills</a>
+                <a href="#contact" class="px-4 text-gray-300 hover:text-white">Contact</a>
+            </nav>
+
+        </div>
+    </header>
+
+    <main class="container mx-auto px-6 py-8">
+        <section id="about" class="my-8 flex items-center">
+            <div class="flex-1">
+                <h2 class="text-3xl font-bold mb-4">About Me</h2>
+                <p class="text-lg leading-relaxed">Hello! I am <strong>VARSHINI RENGASAMY</strong></p>
+                   <p> A passionate full-stack developer with a BCA degree from Dhanalakshmi Srinivasan College of Arts and Science for Women. I am eager to start my career in web development, creating responsive and dynamic websites and applications.</p>
+
+            </div>
+            <div class="ml-6">
+                <img src="/assets/photo.jpg" alt="Profile Photo" class="w-16 h-16 rounded-full border-2 border-white">
+            </div>
+        </section>
+
+        <section id="projects" class="my-8">
+            <h2 class="text-3xl font-bold mb-4">Projects</h2>
+            <div class="bg-gray-800 p-6 shadow-md rounded-lg project-card">
+                <h3 class="text-2xl font-semibold mb-2">Facebook Clone</h3>
+                  <p class="text-lg mb-4">A clone of the Facebook homepage created using HTML and CSS. This project showcases my ability to replicate modern web designs with a focus on responsiveness and visual accuracy.</p>
+                <p class="text-lg mb-4">In this project, I used various CSS techniques including Flexbox and Grid layout to create a responsive design that adjusts seamlessly to different screen sizes. The project also includes interactive elements such as hover effects and a simulated login form to enhance user experience.</p>
+                <a href="http://127.0.0.1:5500/facebook%20signup/index.html" class="text-blue-400 hover:underline">View project</a>
+            </div>
+        </section>
+        <section id="certificates" class="my-8">
+            <h2 class="text-3xl font-bold mb-4">Certificates</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-gray-800 p-6 shadow-md rounded-lg">
+                    <h3 class="text-2xl font-semibold mb-2">TCS Soft Skills Course</h3>
+                    <p class="text-lg mb-4">I completed a soft skills course offered by TCS, where I developed crucial skills including communication, presentation, and more. This course has been very useful in enhancing my professional capabilities.</p>
+                    <a href="/assets/certificate.pdf" target="_blank" class="text-blue-400 hover:underline">View Certificate</a>
+                </div>
+
+                <div class="bg-gray-800 p-6 shadow-md rounded-lg">
+                    <h3 class="text-2xl font-semibold mb-2">MongoDB</h3>
+                                        <p class="text-lg mb-4">I completed a MongoDB course, gaining in-depth knowledge about NoSQL databases. This course covered various aspects of MongoDB, including data modeling, schema design, and performing complex queries. It has been instrumental in enhancing my backend development skills.</p>
+                               <a href="/portfolio/assets/certificate2.pdf" target="_blank" class="text-blue-400 hover:underline">View Certificate</a>
+                
+                </div>
+                <div class="bg-gray-800 p-6 shadow-md rounded-lg">
+                    <h3 class="text-2xl font-semibold mb-2">Certificate 3</h3>
+                    <p class="text-lg mb-4">Description of Certificate 3. This certificate highlights my skills and knowledge acquired in a specific area.</p>
+                </div>
+            </div>
+            <div class="mt-8">
+                <a href="/assets/resume.pdf" target="_blank" class="bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-600">Check My Resume</a>
+            </div>
+
+        </section>
+        <section id="skills" class="my-8">
+            <h2 class="text-3xl font-bold mb-4">Skills</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-blue-800 p-6 shadow-md rounded-lg">
+                    <h3 class="text-2xl font-semibold mb-4">Frontend Skills</h3>
+                    <div class="flex flex-wrap">
+                        <div class="w-1/2 md:w-1/4 p-2">
+                            <img src="/assets/icons8-html-logo-30.png" alt="HTML Logo" class="w-12 h-12 mx-auto">
+                            <p class="text-center mt-2">HTML</p>
+                        </div>
+                        <div class="w-1/2 md:w-1/4 p-2">
+                            <img src="/assets/css logo.png" alt="CSS Logo" class="w-12 h-12 mx-auto">
+                            <p class="text-center mt-2">CSS</p>
+                        </div>
+                        <div class="w-1/2 md:w-1/4 p-2">
+                            <img src="/assets/icons8-java-script-64.png" alt="JavaScript Logo" class="w-12 h-12 mx-auto">
+                            <p class="text-center mt-2">JavaScript</p>
+                        </div>
+                        <div class="w-1/2 md:w-1/4 p-2">
+                            <img src="/assets/icons8-bootstrap-50.png" alt="Bootstrap Logo" class="w-12 h-12 mx-auto">
+                            <p class="text-center mt-2">Bootstrap</p>
+                        </div>
+                        <div class="w-1/2 md:w-1/4 p-2">
+                                                        <img src="/assets/icons8-react-js-40.png" alt="React Logo" class="w-12 h-12 mx-auto">
+                            <p class="text-center mt-2">React JS</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-green-800 p-6 shadow-md rounded-lg">
+                    <h3 class="text-2xl font-semibold mb-4">Other Skills</h3>
+                    <p class="text-lg mb-4">Communication Skills</p>
+                    <p class="text-lg mb-4">Presentation Skills</p>
+                    <p class="text-lg mb-4">Soft Skills</p>
+                </div>
+            </div>
+        </section>
+
+
+
+
+                
+        </section>        <section id="contact" class="my-8">
+            <h2 class="text-3xl font-bold mb-4">Contact</h2>
+            <form id="contactForm" class="bg-gray-800 p-6 shadow-md rounded-lg">
+                <div class="mb-4">
+                    <label for="name" class="block text-lg font-medium">Name</label>
+                    <input type="text" id="name" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 bg-gray-700 text-white">
+                </div>
+                <div class="mb-4">
+                    <label for="email" class="block text-lg font-medium">Email</label>
+                    <input type="email" id="email" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 bg-gray-700 text-white">
+                </div>
+                <div class="mb-4">
+                    <label for="message" class="block text-lg font-medium">Message</label>
+                    <textarea id="message" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 bg-gray-700 text-white"></textarea>
+                </div>
+                <button type="submit" class="px-6 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600">Send</button>
+            </form>
+    </main>
+
+    <footer class="bg-gray-900 shadow-md mt-8">
+        <div class="container mx-auto px-6 py-3 text-center">
+            <p>Contact Information: varshinirengasamy594@gmail.com | </p>
+            <div class="mt-2">
+                <a href="https://www.linkedin.com/in/varshini-rengasamy-31aa952b9/" target="_blank" class="text-gray-300 hover:text-white px-2">LinkedIn</a>
+                <a href="https://github.com/varshini-rengasamy" target="_blank" class="text-gray-300 hover:text-white px-2">GitHub</a>
+                <a href="https://twitter.com/varshini_r" target="_blank" class="text-gray-300 hover:text-white px-2">Twitter</a>
+            </div>
+            <div class="mt-2">
+                <p>&copy; 2024 Varshini Rengasamy. All rights reserved.</p>
+                <p>
+                    <a href="path/to/privacy-policy" class="text-gray-300 hover:text-white px-2">Privacy Policy</a>
+                    |
+                    <a href="path/to/terms-of-service" class="text-gray-300 hover:text-white px-2">Terms of Service</a>
+                </p>
+            </div>
+            <p class="mt-2">Feel free to reach out for collaborations or inquiries!</p>
+        </div>
+    </footer>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
